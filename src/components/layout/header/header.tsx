@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export function Header() {
     return (
-        <header className="w-full border-b h-16 px-4 flex items-center justify-between">
+        <header className="w-full border-b h-16 px-6 flex items-center justify-between">
             <div className="relative flex items-center">
                 <Input
                     className="max-w-96 pl-10"
@@ -23,7 +23,7 @@ export function Header() {
                         <AvatarImage src="https://github.com/miguelkapicius.png" />
                         <AvatarFallback>MK</AvatarFallback>
                     </Avatar>
-                    <span>Miguel Kapicius</span>
+                    <span className="text-sm">Miguel Kapicius</span>
                 </Link>
             </div>
         </header>

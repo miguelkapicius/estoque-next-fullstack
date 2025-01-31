@@ -85,6 +85,7 @@ model Product {
   category       Category    @relation(fields: [categoryId], references: [id], onDelete: Restrict)
   categoryId     String
   stock          Int         @default(0)
+  minStock       Int         @default(0)
   costPrice      Decimal
   salePrice      Decimal
   supplier       Supplier    @relation(fields: [supplierId], references: [id], onDelete: Restrict)
