@@ -10,6 +10,9 @@
 !.yarn/releases
 !.yarn/versions
 
+# Ignora diretórios de volumes do Docker
+postgres_data/
+
 # testing
 /coverage
 
